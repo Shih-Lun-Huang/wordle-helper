@@ -19,7 +19,7 @@ from english_words import english_words_set
 # In[5]:
 
 
-#select 4 or 5 letter words
+#select 4 or 5 letters word
 init_words_list = [x for x in  english_words_set if (len(x) == 4) or (len(x) == 5)]
 print(len(init_words_list))
 
@@ -55,8 +55,6 @@ for word in lower_word_list:
 {k: v for k, v in sorted(count_dict.items() , key=lambda item: item[1], reverse = True)}
 #recommend guess: reals(check if is single or plural) > point > ducky
 
-
-# # check word length
 
 # In[22]:
 
